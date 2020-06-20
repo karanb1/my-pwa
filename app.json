@@ -7,11 +7,11 @@
       "android",
       "web"
     ],
+    "icon":"./assets/images/react.png",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,6 +23,19 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "web": {
+      "name": "my-pwa",
+      "start_url": "/",
+      "backgroundColor": "#ffffff",
+      "description": "This is a demo app",
+      "display": "standalone",
+      "themeColor": "#008080",
+      "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+      }
   }
+}
 }
