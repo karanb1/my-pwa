@@ -10,6 +10,13 @@ export const HomeScreen = () => (
    </SafeAreaView>
 )
 
+export const SettingScreen = () => (
+  <SafeAreaView style={{flex: 1, justifyContent: "center", backgroundColor:"#008080"}}>
+      <Text style={{color: "white", marginTop: 10, marginLeft: 10, fontSize: 40}}>Hello,</Text>
+      <Text style={{color: "white", marginTop: 5, marginLeft: 10, fontSize: 40}}>This is my Setting screen.</Text>
+  </SafeAreaView>
+)
+
 export default function App() {
   return (
     <NavigationContainer>

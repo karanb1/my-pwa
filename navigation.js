@@ -1,6 +1,6 @@
 import React from 'react';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import {HomeScreen} from './App'
+import {HomeScreen, SettingScreen} from './App'
 const BottomTab = createMaterialBottomTabNavigator();
 import { AntDesign } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
@@ -21,7 +21,7 @@ import { Feather } from '@expo/vector-icons';
             }} />
       <BottomTab.Screen 
       name="Settings" 
-      component={HomeScreen}
+      component={SettingScreen}
       options={{
         tabBarIcon: ({focused})=> <Feather name="settings" size={focused? 26 : 25} color={focused? '#008080' : "grey"} />
         }} /> 
