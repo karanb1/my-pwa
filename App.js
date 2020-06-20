@@ -10,12 +10,6 @@ export const HomeScreen = () => (
    </SafeAreaView>
 )
 
-export const SettingsScreen = () => (
-  <SafeAreaView>
-     <Text style={{color: "white"}}>Hello,Welcome to my PWA demo.</Text>
-  </SafeAreaView>
-)
-
 export default function App() {
   return (
     <NavigationContainer>
